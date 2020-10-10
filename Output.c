@@ -1,6 +1,7 @@
 #include "Header.h"
 #define min(a,b) (a>b) ? b : a
 #define min(a,b) (a>b) ? a : b
+#include "math.h"
 
 void Print_Line( char *line, int *Count, int *B_Flag ) {
 	int i, N_Blanks, N_Chars, Start=0;
